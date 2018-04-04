@@ -26,7 +26,7 @@ dim.out <- as.numeric(args[6])            # dim.out <- 2
 
 setwd(base.dir)
 source('/Users/ilaria_bonavita/statgen/dyslexia/ncca.rsvd.R')
-source('/Users/ilaria_bonavita/statgen/dyslexia/benno_db.R')
+source('/Users/ilaria_bonavita/statgen/dyslexia/snp4gene_db.R')
 
 # create experiment directory to save results
 exp.dir <- paste0('snp_gene_train',train.frac,'_dimout',dim.out,'_NNs',NNs,'onegene')
